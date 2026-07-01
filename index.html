@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nuestro Universo ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:linear-gradient(180deg,#09122b,#1d2d68,#324b9f);
+
+overflow:hidden;
+
+font-family:Arial,sans-serif;
+
+color:white;
+
+}
+
+.container{
+
+text-align:center;
+
+background:rgba(255,255,255,.08);
+
+padding:50px;
+
+border-radius:30px;
+
+backdrop-filter:blur(12px);
+
+width:90%;
+
+max-width:700px;
+
+box-shadow:0 0 30px rgba(255,255,255,.2);
+
+}
+
+h1{
+
+font-size:55px;
+
+margin-bottom:15px;
+
+}
+
+h2{
+
+font-weight:300;
+
+margin-bottom:30px;
+
+}
+
+p{
+
+font-size:20px;
+
+line-height:1.8;
+
+margin-bottom:35px;
+
+}
+
+button{
+
+padding:18px 45px;
+
+font-size:20px;
+
+border:none;
+
+border-radius:40px;
+
+cursor:pointer;
+
+background:#ff69b4;
+
+color:white;
+
+transition:.4s;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+}
+
+#stars{
+
+position:absolute;
+
+width:100%;
+
+height:100%;
+
+background-image:
+
+radial-gradient(white 1px,transparent 1px);
+
+background-size:40px 40px;
+
+opacity:.45;
+
+animation:moveStars 80s linear infinite;
+
+}
+
+@keyframes moveStars{
+
+from{
+
+transform:translateY(0);
+
+}
+
+to{
+
+transform:translateY(-600px);
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="stars"></div>
+
+<div class="container">
+
+<h1>✨ Nuestro Universo ✨</h1>
+
+<h2>Dos años contigo ❤️</h2>
+
+<p>
+
+Hay personas que llegan a tu vida...
+
+y otras que se convierten en ella.
+
+</p>
+
+<button>
+
+Comenzar el viaje
+
+</button>
+
+</div>
+
+</body>
+
+</html>
