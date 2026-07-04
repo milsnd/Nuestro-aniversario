@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Una carta para ti ❤️</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+
+background:linear-gradient(180deg,#09122b,#1d2d68,#344fa3);
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+overflow:hidden;
+
+color:white;
+
+}
+
+.estrellas{
+
+position:fixed;
+
+width:100%;
+
+height:100%;
+
+background-image:radial-gradient(white 1px,transparent 1px);
+
+background-size:45px 45px;
+
+opacity:.4;
+
+animation:mover 80s linear infinite;
+
+}
+
+@keyframes mover{
+
+from{transform:translateY(0);}
+to{transform:translateY(-700px);}
+
+}
+
+.carta{
+
+width:90%;
+
+max-width:750px;
+
+background:rgba(255,255,255,.08);
+
+padding:60px;
+
+border-radius:25px;
+
+backdrop-filter:blur(12px);
+
+text-align:center;
+
+box-shadow:0 0 40px rgba(255,255,255,.12);
+
+}
+
+h1{
+
+font-size:45px;
+
+margin-bottom:30px;
+
+}
+
+p{
+
+font-size:24px;
+
+line-height:1.9;
+
+margin-bottom:20px;
+
+}
+
+button{
+
+margin-top:35px;
+
+padding:18px 40px;
+
+font-size:22px;
+
+border:none;
+
+border-radius:40px;
+
+background:#ff5ba7;
+
+color:white;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+background:#ff3d95;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="estrellas"></div>
+
+<div class="carta">
+
+<h1>💌 Hola, mi amor</h1>
+
+<p>
+Antes de comenzar este pequeño viaje...
+</p>
+
+<p>
+Quiero pedirte algo.
+</p>
+
+<p>
+Recorre esta página despacito.
+</p>
+
+<p>
+Porque cada rincón fue hecho pensando en ti.
+</p>
+
+<p>
+❤️
+</p>
+
+<button>
+Continuar
+</button>
+
+</div>
+
+</body>
+</html>
